@@ -1,0 +1,50 @@
+@import "styles/abstract/variables.scss";
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  .box {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 300px;
+    gap: 1rem;
+    background-color: #ffffff;
+    padding: 15px;
+    align-items: start;
+    justify-content: space-between;
+    border-radius: 15px;
+    h2 {
+      @include size-color(1.1em, $dark-blue);
+      text-align: left;
+      font-weight: 700;
+    }
+    h3 {
+      @include size-color(1em, $yellow);
+    }
+    p {
+      @include size-color(0.9em, $dark-blue);
+      .price {
+        @include size-color(1.5em, $dark-blue);
+        font-weight: 700;
+      }
+    }
+    .box-buttons {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      .icons {
+        display: flex;
+        gap: 10px;
+        .icon {
+          @include size-color(35px, $dark-blue);
+        }
+      }
+      .button {
+        margin-left: auto;
+      }
+    }
+  }
+}

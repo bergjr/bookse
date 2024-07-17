@@ -1,0 +1,9 @@
+@import 'styles/abstract/variables.scss';
+
+.yellow {
+  background-color: $yellow;
+  color: $white;
+  padding: .5rem 1rem;
+  width: 161px;
+  text-align: center;
+}

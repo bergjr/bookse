@@ -1,0 +1,10 @@
+@import 'styles/abstract/variables';
+
+.icons {
+  display: flex;
+  gap: 1.5em;
+  margin-left: auto;
+  .icon {
+    @include size-color($icon-menu-height, $dark-blue);
+  }
+}

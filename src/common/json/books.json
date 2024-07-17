@@ -1,0 +1,24 @@
+{
+  "books": [{
+    "name": "Javascript Assertivo",
+    "img": "javascript_assertivo.svg"
+  }, {
+    "name": "Guia Front-End",
+    "img": "guia_frontend.svg"
+  }, {
+    "name": "Arquitetura de Software Distribuído",
+    "img": "arquitetura_software_distribuido.svg"
+  },
+  {
+    "name": "Javascript Assertivo",
+    "img": "javascript_assertivo.svg"
+  },
+  {
+    "name": "Construindo APIs REST com Node.js",
+    "img": "nodejs.svg"
+  },
+  {
+    "name": "React Native",
+    "img": "react_native.svg"
+  }]
+}

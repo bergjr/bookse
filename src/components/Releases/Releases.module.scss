@@ -1,0 +1,16 @@
+@import "styles/abstract/variables.scss";
+
+.releases {
+  h2.titulo{
+    color: $yellow;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .container {
+    background-color: $gray;
+    padding: 1rem 0;
+  }
+}

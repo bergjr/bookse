@@ -1,0 +1,37 @@
+@import 'styles/abstract/variables.scss';
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to right, #002F52, #326589);
+  max-height: 330px;
+  color: $white;
+  padding: 2rem 1rem;
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .box-input {
+    border: 1px solid $white;
+    border-radius: 25px;
+    width: 90%;
+    padding: 15px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    input {
+      width: 90%;
+      &::placeholder {
+        font-size: 12px;
+        text-align: center;
+      }
+    }
+  }
+}

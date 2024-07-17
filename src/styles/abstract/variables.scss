@@ -1,0 +1,19 @@
+
+// Colors
+
+$dark-blue: #002F52;
+$white: #F0F0F0;
+$yellow: #EB9B00;
+$gray: #EBECEE;
+
+// Icons
+
+$icon-menu-height: 45px;
+
+// Mixins
+
+@mixin size-color ($size, $color) {
+  height: $size;
+  width: auto;
+  color: $color;
+}
