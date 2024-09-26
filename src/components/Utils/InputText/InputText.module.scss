@@ -1,0 +1,17 @@
+.box-input {
+  border: 1px solid $white;
+  border-radius: 25px;
+  width: 90%;
+  padding: 15px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  input {
+    width: 90%;
+    &::placeholder {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+}

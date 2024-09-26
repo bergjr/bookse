@@ -1,0 +1,23 @@
+@import 'styles/abstract/variables.scss';
+
+.news {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: start;
+    min-height: 151px;
+    padding: 24px;
+    gap: 15px;
+    h2 {
+      color: $dark-blue;
+      font-weight: 500;
+      font-size: 18px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 300;
+      color: $light-blue;
+    }
+  }
+}

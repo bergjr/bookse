@@ -1,0 +1,9 @@
+@import 'styles/abstract/variables.scss';
+
+.card {
+  width: 100%;
+  background-image: linear-gradient(to right, #002F52, #326589);
+  max-height: 330px;
+  color: $white;
+  padding: 2rem 1rem;
+}

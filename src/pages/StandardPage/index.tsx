@@ -1,6 +1,8 @@
 import Banner from "components/Banner";
 import Header from "components/Header";
+import News from "components/News";
 import Releases from "components/Releases";
+import Topics from "components/Topics";
 import React from "react";
 
 export default function StandardPage() {
@@ -9,7 +11,10 @@ export default function StandardPage() {
       <Header />
       <main>
         <Banner />
-        <Releases />
+        <Releases title='Últimos Lançamentos'/>
+        <Releases title='Mais Vendidos'/>
+        <Topics />
+        <News />
       </main>
     </>
   );
