@@ -1,17 +1,29 @@
+@import 'styles/abstract/variables.scss';
+
 .box-input {
-  border: 1px solid $white;
   border-radius: 25px;
   width: 90%;
   padding: 15px;
   display: flex;
   gap: 5px;
-  justify-content: center;
   align-items: center;
+  .icon {
+ 
+  }
   input {
-    width: 90%;
+    margin: 0 auto;
+    width: 100% ;
+    margin-left: 5px;
     &::placeholder {
       font-size: 12px;
       text-align: center;
+      color: $dark-blue;
     }
+  }
+  &--white {
+    border: 1px solid $white;
+  }
+  &--blue {
+    border: 1px solid $dark-blue;
   }
 }

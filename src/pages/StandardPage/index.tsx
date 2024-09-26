@@ -1,4 +1,5 @@
 import Banner from "components/Banner";
+import Footer from "components/Footer";
 import Header from "components/Header";
 import News from "components/News";
 import Releases from "components/Releases";
@@ -16,6 +17,9 @@ export default function StandardPage() {
         <Topics />
         <News />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
